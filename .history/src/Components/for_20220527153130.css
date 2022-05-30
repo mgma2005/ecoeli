@@ -1,0 +1,8 @@
+.titulo{
+    background-color: lightpink;
+    text-align: center;
+};
+
+.form-control mb-2{
+    font-size: 5vw;
+}

@@ -1,0 +1,6 @@
+fetch(url)
+
+.then(function() {
+
+})
+

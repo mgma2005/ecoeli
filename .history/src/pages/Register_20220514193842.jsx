@@ -1,0 +1,27 @@
+import styled from "styled-components";
+
+
+const Container = styled.div`
+
+`;
+
+const App = () => {
+  return (
+    <Container>
+      <Wrapper>
+        <Title>CREATE AN ACCOUNT</Title>
+        <Form>
+          <input placeholder="Name"/>
+          <input placeholder="Last name"/>
+          <input placeholder="Username"/>
+          <input placeholder="Email"/>
+          <input placeholder="Name"/>
+          <input placeholder="Name"/>
+
+        </Form>
+      </Wrapper>
+    </Container>
+  )
+}
+
+export default App;

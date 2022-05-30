@@ -1,0 +1,8 @@
+.titulo{
+    background-color: rgb(237, 181, 189);
+    text-align: center;
+};
+
+.form-control mb-2{
+    height: 50vh;
+}

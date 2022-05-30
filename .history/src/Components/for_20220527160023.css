@@ -1,0 +1,26 @@
+.titulo{
+    background-color: rgb(164, 135, 139);
+    text-align: center;
+};
+
+.form-control mb-2{
+    height: 50vh;
+}
+
+.frm{
+    text-align: center;
+}
+
+#in{
+    height: 4vh;
+    border: 0.3vw solid black;
+}
+
+.btn{
+    height: 4.5vw;
+    font-family: cursive;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

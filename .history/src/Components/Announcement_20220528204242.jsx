@@ -1,0 +1,76 @@
+import styled from "styled-components";
+import React from "react";
+import { ContactMail,PhonePaused,WhatsApp } from "@material-ui/icons";
+
+
+
+
+const Text = styled.div`
+
+  font-size: 5vw;
+  text-align: center;
+  background-image: url("https://img.freepik.com/foto-gratis/bandera-argentina-sobre-fondo-blanco_532129-292.jpg?w=900");
+  background-size: 20vw;
+  background-repeat: no-repeat;
+  background-position: center; 
+`
+
+const P = styled.div`
+  font-size: 3vw;
+`
+
+const F = styled.div`
+    
+    font-size: 2vw;
+    margin-left: 80%;
+  
+`;
+
+const Button=styled.div`
+  margin-left: 80%;
+  cursor: pointer;
+    
+`;
+
+
+const Sup=styled.div`
+  width: 20%;
+  display: flex;
+  padding: 2px;
+  margin-left: 30%;
+`;
+
+var d = new Date();
+
+
+const Announcement = () => {
+  
+  return (
+    <>
+    <Text>
+        <F>{(d.getDate() + "/" + (d.getMonth() + 1) + "/" + d.getFullYear())}</F>
+       <Sup>
+       <a href="./index1.html">
+      <Button>
+        <ContactMail />
+      </Button>
+      </a>
+      <Button>
+      <PhonePaused />
+      </Button>
+      <Button>
+      <WhatsApp />
+    </Button>
+    </Sup>
+    <Tex>
+        Wellcome to Miss Argentina...
+        <P>
+          the most beautifull footwear ever!
+        </P>
+    </div>
+      </Text></>
+    
+  )
+} 
+
+export default Announcement
